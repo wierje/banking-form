@@ -1,0 +1,37 @@
+body {
+  background-color: aliceblue;
+  padding: 50px;
+  font-family: "Open Sans", Ubuntu, sans-serif;
+}
+
+form {
+  background-color: #eee;
+  color: #333;
+  font-family: raleway, roboto, sans-serif;
+}
+
+input {
+  margin: 10px;
+  display: block;
+}
+
+#personal {
+  width: 40%;
+  margin: 10px;
+  display: inline-block;
+}
+
+#selections {
+  width: 40%;
+/* float: right; */
+  display: inline-block;
+}
+
+p {
+  margin-left: 10px;
+  font-size: .8em;
+}
+
+select {
+  margin-left: 10px;
+}

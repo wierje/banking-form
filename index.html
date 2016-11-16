@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banking Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+  <h2>Loan Application</h2>
+</header>
+  <section>
+    <div id="personal">
+      <form>
+      <!-- input personal data -->
+        <p>First Name</p>
+        <input type="text" name="firstName">
+        <p>Middle Initial</p>
+        <input type="text" name="Middle Initial" size="3">
+        <p>Last Name</p>
+        <input type="text" name="Last Name">
+        <p>Street Address</p>
+        <input type="text" name="Street">
+        <p>City</p>
+        <input type="text" name="City">
+        <p>State</p>
+        <input type="text" name="State" size="3">
+        <p>Zip</p>
+        <input type="text" name="Zip">
+        <p>Occupation</p>
+        <input type="text" name="Occupation">
+        <p>Employer</p>
+        <input type="text" name="Employer">
+        <p>Type of loan requested</p>
+        <!-- dropdown list of options -->
+        <select>
+          <option value="Commercial">Commercial</option>
+          <option value="Real estate">Real estate</option>
+          <option value="Personal">Personal</option>
+          <option value="Mortgage">Mortgage</option>
+        </select>
+        <!-- input requested amount -->
+        <p>Requested amount of loan</p>
+        <input type="text" name="Requested" placeholder="$">
+      </form>
+    </div>
+    <!-- new div -->
+    <div id="selections">
+      <form>
+        <h3>Length of loan</h3>
+        <input type="radio" name="length" value="5 years"> 5 years<br>
+        <input type="radio" name="length" value="15 years"> 15 years<br>
+        <input type="radio" name="length" value="30 years"> 30 years
+      </form>
+    </div>
+  </section>
+</body>
+</html>
