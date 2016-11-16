@@ -1,30 +1,45 @@
 body {
   background-color: aliceblue;
-  padding: 50px;
+  padding: 5%;
   font-family: "Open Sans", Ubuntu, sans-serif;
+}
+
+section {
+  width: 90%;
+  height: 1000px;
+  margin: auto;
+  display: flex;
 }
 
 form {
   background-color: #eee;
   color: #333;
-  font-family: raleway, roboto, sans-serif;
+  font-family: Raleway, Roboto, sans-serif;
+  padding: 10%;
 }
 
 input {
   margin: 10px;
   display: block;
+  border-radius: 5px;
 }
 
 #personal {
-  width: 40%;
+  width: 45%;
   margin: 10px;
   display: inline-block;
 }
 
 #selections {
-  width: 40%;
-/* float: right; */
+  width: 45%;
+  margin: 10px;
   display: inline-block;
+}
+
+#checkbox {
+  width: 45%;
+  margin: 10px;
+  display: block;
 }
 
 p {
@@ -34,4 +49,8 @@ p {
 
 select {
   margin-left: 10px;
+}
+
+.bigger {
+  font-size: 1em;
 }
