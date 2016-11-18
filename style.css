@@ -1,12 +1,12 @@
 body {
-  background-color: aliceblue;
+  background-color: #efefef;
   padding: 5%;
   font-family: "Open Sans", Ubuntu, sans-serif;
 }
 
 section {
   width: 90%;
-  max-height: 1000px;
+  /* max-height: 1000px; */
   margin: auto;
   display: flex;
 }
@@ -27,19 +27,25 @@ input {
 #personal {
   width: 45%;
   margin: 10px;
-  display: inline-block;
+  flex-wrap: wrap;
 }
 
 #selections {
   width: 45%;
   margin: 10px;
-  display: inline-block;
+  flex-wrap: wrap;
 }
 
 #checkbox {
   width: 45%;
   margin: 10px;
-  display: block;
+  flex-wrap: wrap;
+}
+
+#contact {
+  margin: 10px;
+  /* display: block; */
+  flex-wrap: wrap;
 }
 
 p {
